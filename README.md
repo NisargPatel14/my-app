@@ -1,8 +1,7 @@
 ```
-npm install
-npm run dev
+#Summarization-API 
 ```
 
 ```
-npm run deploy
+#Pawan's OpenAI's ChatGPT Reverse Proxy
 ```
