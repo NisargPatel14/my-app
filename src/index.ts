@@ -29,7 +29,7 @@ app.post('/ai', async (c) => {
                   messages,
               }),
           });
-          const data = await response.json();
+          const data = await response.json() as { [key: string]: any };
           return c.json(data);
       } catch (error) {
           console.error('Error:', error);
